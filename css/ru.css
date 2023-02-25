@@ -4,9 +4,9 @@
     top: -5px;
     right: 100px;
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 640px){
     .stiker-footer-card{
-        top: 150px;
-        left: 300px;
+        top: 130px;
+        left: 230px;
     }
 }
