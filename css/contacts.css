@@ -1,0 +1,102 @@
+.nav{
+    margin-bottom: 31px;
+}
+.capabilities-section-title h4{
+    margin-bottom: 92px;
+    font-size: 96px;
+    letter-spacing: 0.02em;
+}
+.container{
+    padding-top: 0;
+    padding-bottom: 50px;
+    width: 640px;
+}
+.content-header{
+    margin: 20px 0;
+}
+.content-header > div p{
+    letter-spacing: 0em;
+    margin-left: 0px;
+    line-height: 44px;
+}
+.content-header-icon{
+    padding: 0px;
+    width: 48px;
+    height: 48px;
+}
+.content-body div, .content:last-child .content-body{
+    height: auto;
+}
+.content-body, .content:last-child .content-body{
+    max-height: 0px;
+}
+.content:first-child .content-body{
+    max-height: 169px;
+}
+.content-body-text{
+    font-size: 18px;
+    line-height: 22px; 
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+.content-body-text a{
+    text-decoration: none;
+}
+.c-logo{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.content-body-text p{
+    margin-bottom: 20px;
+}
+.figma-link{
+    display: flex;
+}
+.figma-link span{
+    font-size: 12px;
+}
+footer{
+    padding-top: 39px;
+}
+@media screen and (max-width: 320px){
+    .nav{
+        margin-bottom: 34px;
+    }
+    .container{
+        width: 94%;
+    }
+    .capabilities-section>div:first-child{
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .content-header > div p{
+       font-size: 36px;
+    }
+    .capabilities-section-title h4{
+        margin-bottom: 40px;
+        font-size: 64px;
+    }
+    .content-header{
+        margin: 10px 0;
+    }
+    .content-body-text{
+        font-size: 16px;
+        line-height: 19px; 
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+    .content-body-text p{
+        margin-bottom: 10px;
+    }
+    .content-header-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .content:first-child .content-body{
+        max-height: 121px;
+    }
+    footer{
+        padding-top: 44px;
+    }
+}
