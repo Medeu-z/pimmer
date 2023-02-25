@@ -98,6 +98,12 @@ header, footer{
     width: 114px;
     text-align: center;
 }
+.stiker-footer-card{
+    position: absolute;
+    z-index: 0;
+    top: 70px;
+    right: 360px;
+}
 .mobile-stiker{
     display: none;
 }
@@ -140,7 +146,7 @@ header, footer{
     overflow: hidden;
 }
 .header-img img{
-    width: 256px;
+    width: 377px;
     margin-right: 103px;
 }
 .header-heading-title{
