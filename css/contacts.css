@@ -59,7 +59,7 @@
 footer{
     padding-top: 39px;
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 640px){
     .nav{
         margin-bottom: 34px;
     }
