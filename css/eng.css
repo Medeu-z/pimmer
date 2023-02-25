@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 320px){
     .stiker-footer-card{
-        top: 0px;
-        right: 0px;
+        top: 70px;
+        left: 100px;
     }
 }
