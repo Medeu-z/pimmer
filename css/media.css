@@ -82,12 +82,12 @@
     .f-stiker img{
         position: absolute;
         z-index: 1;
-        width: 100.15px;
+        width: 109px;
     }
     .f-stiker div{
         position: absolute;
         top: 19px;
-        left: -8px;
+        left: -4px;
         font-size: 10px;
         z-index: 5;
         color: white;
@@ -255,6 +255,9 @@
     }
     .access-section-title>h4{
         margin-bottom: 24px;
+    }
+    .access-section-title p{
+        font-weight: 400;
     }
     .access-section-body{
         margin-top: 16px;

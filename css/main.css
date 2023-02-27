@@ -3,7 +3,14 @@
     src: url("../assets/fonts/DrukCyr-Bold.ttf") format('truetype');
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-
+@font-face{font-family:'DrukMont';src:url('https://static.tildacdn.com/tild6636-6162-4262-b961-663931313166/Montserrat-Regular_2.woff') format('woff');
+    font-weight:400;font-style:normal}
+@font-face{font-family:'DrukMont';src:url('https://static.tildacdn.com/tild6236-6338-4532-a530-356237336632/Montserrat-Medium_1.woff') format('woff');
+    font-weight:500;font-style:normal}
+@font-face{font-family:'DrukMont';src:url('https://static.tildacdn.com/tild6330-6461-4262-b737-336466356533/Montserrat-SemiBold_.woff') format('woff');
+    font-weight:600;font-style:normal}
+@font-face{font-family:'DrukMont';src:url('https://static.tildacdn.com/tild3235-3664-4466-b962-353261396639/Druk-Bold-Web.woff') format('woff');
+    font-weight:700;font-style:normal}
 :root{
     --color-primary: #7B46AC;
     --color-white: #FFFFFF;
@@ -21,7 +28,7 @@
     text-decoration: none;
     list-style-type: none;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DrukMont',Arial, sans-serif;
     font-weight: 400;
     letter-spacing: 0.0024em;
 }
@@ -98,6 +105,8 @@ header, footer{
     letter-spacing: 0.0024em;
     width: 114px;
     text-align: center;
+    font-family: 'DrukMont',Arial, sans-serif;
+    font-weight: 600;
 }
 .stiker-footer-card{
     position: absolute;
@@ -235,6 +244,8 @@ header, footer{
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+    font-family: 'DrukMont',Arial, sans-serif;
+    font-weight: 600;
 }
 .card-body{
     height: 75px;
@@ -346,6 +357,7 @@ header, footer{
 .access-section-title p{
     line-height: 26px;
     letter-spacing: 0.0024em;
+    font-weight: 500;
 }
 .access-section-body::-webkit-scrollbar{width:2px;height:2px;}
 .access-section-body::-webkit-scrollbar-button{width:2px;height:2px;}
