@@ -318,17 +318,15 @@ header, footer{
 .content:last-child .content-body{
     height: 576px;
 }
-.content:first-child .content-body video{
+.content-video{
     border: 0;
     object-fit: cover;
     background-size: cover;
     box-sizing: content-box;
-    background-color: #7B46AC;
 }
-.content:first-child .content-body video>source{
+.content-video>source{
     background-size: cover;
     box-sizing: content-box;
-    background-color: #7B46AC;
     border: 0;
 }
 .content-body-img{
