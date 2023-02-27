@@ -324,6 +324,10 @@ header, footer{
     background-size: cover;
     box-sizing: content-box;
 }
+.content:first-child .content-body video>source{
+    background-size: cover;
+    box-sizing: content-box;
+}
 .content-body-img{
     display: flex;
     padding-top: 6px;
