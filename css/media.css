@@ -223,7 +223,7 @@
         background-size: cover;
     }
     .content:first-child .content-body div:first-child{
-        margin-bottom: 3px;
+        margin-bottom: 32px;
     }
     .img-1 > img{
         width: 145px;

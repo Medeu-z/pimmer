@@ -318,6 +318,12 @@ header, footer{
 .content:last-child .content-body{
     height: 576px;
 }
+.content:first-child .content-body video{
+    border: 0;
+    object-fit: cover;
+    background-size: cover;
+    box-sizing: content-box;
+}
 .content-body-img{
     display: flex;
     padding-top: 6px;
