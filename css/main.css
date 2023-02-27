@@ -27,6 +27,7 @@
 }
 html,body{
     scroll-behavior: smooth;
+    
 }
 .wrapper{
     width: var(--max-width);
@@ -346,8 +347,8 @@ header, footer{
     line-height: 26px;
     letter-spacing: 0.0024em;
 }
-::-webkit-scrollbar{width:2px;height:2px;}
-::-webkit-scrollbar-button{width:2px;height:2px;}
+.access-section-body::-webkit-scrollbar{width:2px;height:2px;}
+.access-section-body::-webkit-scrollbar-button{width:2px;height:2px;}
 .access-section-body{
     margin-top: 30px;
     width: 100%;
