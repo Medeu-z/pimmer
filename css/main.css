@@ -319,6 +319,7 @@ header, footer{
     height: 576px;
 }
 .content:first-child .content-body video{
+    height: auto;
     border: 0;
     object-fit: cover;
     background-size: cover;
